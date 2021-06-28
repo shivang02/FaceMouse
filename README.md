@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-<a href="https://github.com/shivang02/FaceMouse"><img src="./misc_assets/FaceMouseLogo.png" alt="Face Mouse Logo" width="200"></a>
+<a href="https://github.com/shivang02/FaceMouse"><img src="./misc_assets/FaceMouseLogoRound.png" alt="Face Mouse Logo" width="200"></a>
 <br>
   Face Mouse
   <br>
@@ -51,7 +51,7 @@ $ python3 face_mouse.py
 
 ## Download
 
-You can [download]() the latest installable version of [FaceMouse](https://github.com/shivang02/FaceMouse) for Windows.
+You can [download](https://github.com/shivang02/FaceMouse/releases/tag/v1.0) the latest installable version of [FaceMouse](https://github.com/shivang02/FaceMouse) for Windows.
 
 ## Credits
 
@@ -66,7 +66,6 @@ This software mainly uses the following open source packages (among others):
 The following sources helped with some logic in the code:
 
 - [Eye blink detection with OpenCV, Python, and dlib](https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/)
-- 
 
 ## License
 
