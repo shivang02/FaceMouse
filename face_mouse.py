@@ -1,3 +1,6 @@
+"""
+Runs the program without any GUI window
+"""
 # Importing packages
 from scipy.spatial import distance as dist
 from collections import OrderedDict

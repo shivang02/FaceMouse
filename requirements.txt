@@ -1,0 +1,7 @@
+dlib==19.22.0
+mouse==0.7.1
+numpy==1.19.5
+opencv-contrib-python==4.5.2.54
+opencv-python==4.5.2.52
+PyAutoGUI==0.9.52
+scipy==1.7.0

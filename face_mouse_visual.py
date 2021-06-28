@@ -1,3 +1,6 @@
+"""
+Creates a GUI window displaying user's face getting tracked in Real Time
+"""
 # Importing packages
 from scipy.spatial import distance as dist
 from collections import OrderedDict
@@ -220,14 +223,14 @@ while True:
 
         # Drawing the number of Blinks
         cv2.putText(frame, "Blinks: {}".format(TOTAL), (10, 30),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                    cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
         cv2.putText(frame, "EAR: {:.2f}".format(ear), (450, 30),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                    cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
         cv2.putText(frame, "Click Type: {}".format(click_type), (10, 60),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
+                    cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 255), 2)
         fps = cv2.getTickFrequency() / (cv2.getTickCount() - timer)
         cv2.putText(frame, "FPS: {}".format(round(fps, 2)), (10, 90),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
+                    cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 0), 2)
 
         # Increment blink counter if the EAR was less than specified threshold
         if ear < EYE_AR_THRESH:
