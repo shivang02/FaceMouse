@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7f109e-fe17-4933-9f81-29902d006064" name="Default Changelist" comment="" />
+    <list default="true" id="0b7f109e-fe17-4933-9f81-29902d006064" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.face_mouse_visual">
+  <component name="RunManager" selected="Python.face_mouse_portrait">
     <configuration name="eye_tracker1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mouse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,18 +64,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="face_mouse_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Face Mouse" />
+    <configuration name="face_mouse_portrait" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\hp\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_mouse_portrait.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_mouse_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\hp\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_mouse_visual.py" />
       <option name="PARAMETERS" value="" />
@@ -128,8 +152,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.eye_tracker1" />
+      <item itemvalue="Python.face_mouse_portrait" />
+      <item itemvalue="Python.face_mouse_visual" />
+      <item itemvalue="Python.pseudo_code" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.face_mouse_portrait" />
         <item itemvalue="Python.face_mouse_visual" />
         <item itemvalue="Python.eye_tracker1" />
         <item itemvalue="Python.pseudo_code" />
@@ -163,7 +195,8 @@
       <workItem from="1625660860009" duration="892000" />
       <workItem from="1625683614907" duration="3731000" />
       <workItem from="1625740696914" duration="13000" />
-      <workItem from="1625740715838" duration="879000" />
+      <workItem from="1625740715838" duration="1732000" />
+      <workItem from="1625938432049" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial files">
       <created>1624823859098</created>
@@ -235,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625689466477</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added GIF screenshots">
+      <created>1625741739651</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625741739651</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,12 +289,14 @@
     <MESSAGE value="Changes to README.md" />
     <MESSAGE value="Added Screenshots" />
     <MESSAGE value="Added Shape Predictor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Shape Predictor" />
+    <MESSAGE value="Added GIF screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added GIF screenshots" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Face_Mouse$face_mouse_portrait.coverage" NAME="face_mouse_portrait Coverage Results" MODIFIED="1625938845271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/face_mouse_visual_py$pseudo_code.coverage" NAME="pseudo_code Coverage Results" MODIFIED="1625492087880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/face_mouse_visual_py$eye_tracker1.coverage" NAME="eye_tracker1 Coverage Results" MODIFIED="1625653031748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Code/Proctoring-AI" />
-    <SUITE FILE_PATH="coverage/Face_Mouse$face_mouse_visual.coverage" NAME="face_mouse_visual Coverage Results" MODIFIED="1625217816255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Face_Mouse$face_mouse_visual.coverage" NAME="face_mouse_visual Coverage Results" MODIFIED="1625938713607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/face_mouse_visual_py$face_mouse_visual.coverage" NAME="face_mouse_visual Coverage Results" MODIFIED="1625661142145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
